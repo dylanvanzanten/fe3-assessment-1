@@ -2,19 +2,21 @@
 
 #Assessment 1 
 
-This is a D3 chart of visualsing the monthly temperature time series. This assignment is made with [D3] https://d3js.org/. I've chosen the [Line chart] https://bl.ocks.org/mbostock/3883245 to visualise my data.
-The data is from the [KMNI] https://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt.
+This is a D3 chart of visualsing the monthly temperature time series. This assignment is made with [D3] https://d3js.org/. I've chosen the [Line chart] https://bl.ocks.org/mbostock/3883245 to visualise my data. The data is from the [KMNI] https://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt.
 
 
 
-[final version]https://dylanvanzanten.github.io/fe3-assessment-1/
+[final version] https://dylanvanzanten.github.io/fe3-assessment-1/
 
 ## Background
 
-First of I've copied the JS code from the original chart. When I copied the code I then went to analyse the code. After that I've downloaded the data and placed al the needing files inside my directory. I cleaned the original code up some bit. Some places where a bit messy, not indented etc. I've done this 
+First of I've copied the JS code from the original chart. When I copied the code I then went to analyse the code. After that I've downloaded the data and placed al the needing files inside my directory. I cleaned the original code up some bit. Some places where a bit messy, not indented etc.
+
+I've done this 
 ```
 g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 ``` 
+
 I've changed into:
 ```javascript
 g = svg.append("g"),
