@@ -1,6 +1,6 @@
 # ![Assessment 1][banner]
 
-This is a D3 chart of visualsing the monthly temperature time series. This assignment is made with [D3] https://d3js.org/. I've chosen the [Line chart](https://bl.ocks.org/mbostock/3883245) to visualise my data. The data is from the [KMNI](https://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt).
+This is a D3 chart of visualsing the monthly temperature time series. This assignment is made with [D3](https://d3js.org/). I've chosen the [Line chart](https://bl.ocks.org/mbostock/3883245) to visualise my data. The data is from the [KMNI](https://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt).
 
 ![Final version](preview.png)
 
