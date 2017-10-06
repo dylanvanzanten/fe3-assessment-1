@@ -11,10 +11,11 @@ The data is from the [KMNI] https://www.knmi.nl/kennis-en-datacentrum/achtergron
 
 ## Background
 
-First of I've copied the JS code from the original chart. When I copied the code I then went to analyse the code. After that I've downloaded the data and placed al the needing files inside my directory. I cleaned the original code up some bit. Some places where a bit messy, not indented etc. I've done the ```javavascript
+First of I've copied the JS code from the original chart. When I copied the code I then went to analyse the code. After that I've downloaded the data and placed al the needing files inside my directory. I cleaned the original code up some bit. Some places where a bit messy, not indented etc. I've done this 
+```
 g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 ``` 
-This I've changed into:
+I've changed into:
 ```javascript
 g = svg.append("g"),
     margin = 40,
