@@ -64,8 +64,11 @@ Example:
 * [KNMI](https://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt)
 * [Data KNMI](https://github.com/cmda-fe3/course-17-18/blob/master/assessment-1/temperature.csv)
 
+## Thoughts
+I'm very happy it worked. I still have some troubles with Javascript code. This trying to understand D3 and the code of it, but it's going wel!
+
 ## License
 
-GPL 3.0 © [2017] [Dylan van Zanten]
+GPL 3.0 © 2017 Dylan van Zanten
 
 [banner]: https://cdn.rawgit.com/cmda-fe3/logo/3b150735/banner-assessment-1.svg
