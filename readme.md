@@ -67,3 +67,5 @@ Example:
 ## License
 
 GPL 3.0 © [2017] [Dylan van Zanten]
+
+[banner]: https://cdn.rawgit.com/cmda-fe3/logo/3b150735/banner-assessment-1.svg
