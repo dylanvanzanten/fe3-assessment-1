@@ -1,73 +1,68 @@
 # ![Assessment 1][banner]
 
-This repository can be forked for [**assessment 1**][a1] of [Frontend 3][fe3]
-at [**@CMDA**][cmda].
+#Assessment 1 
 
-## TODO
+This is a D3 chart of visualsing the monthly temperature time series. This assignment is made with [D3] https://d3js.org/. I've chosen the [Line chart] https://bl.ocks.org/mbostock/3883245 to visualise my data.
+The data is from the [KMNI] https://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt.
 
-*   [ ] [GitHub Pages](#github-pages)
-*   [ ] [Metadata](#metadata)
-*   [ ] [Workflow](#workflow)
-*   [ ] Replace this document in your fork with your own readme!
 
-## GitHub Pages
 
-Set up [GitHub Pages][pages] for this fork through the **Settings** pane.  Use
-the **Master branch** as its source.
+[final version]https://dylanvanzanten.github.io/fe3-assessment-1/
 
-## Metadata
+##Background
 
-Edit the **description** and **url** of your repository.  Click on edit above
-the green Clone or download button and fill in your correct information.
+First of I've copied the JS code from the original chart. When I copied the code I then went to analyse the code. After that I've downloaded the data and placed al the needing files inside my directory. I cleaned the original code up some bit. Some places where a bit messy, not indented etc. I've done the ```javavascript
+g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+``` 
+This I've changed into:
+```javascript
+g = svg.append("g"),
+    margin = 40,
+    width = 1500,
+    height = 500,
+```
 
-## Workflow
+After that I've added a setAttribute for the svg. It contains the width and height and margins as a calculation for the svg.
 
-How you go about your project is up to you other than that it must meet the
-given requirements.  The following steps may help to tackle this challenge
-though.
+I made a variable for the Y and X axis and gave them both a line where to place them. I explaind then which line the data is. The X-axis has the date (year) and the Y-axis has the temperature.
 
-###### Explore
+The next line is the connection to the temperature.csv data. In that line of code I added two parseTime. The parseTime comes from the parseTime = d3. It explains the date (Y/M/D).
 
-Explore the [data][].  Make sense of the rows, columns, and what they contain.
-Investigate interesting aspects and possible outcomes.  Figure out what type of
-chart you want and sketch your visualisation.
+After these functions I used the x and y.domain. The domain determines the amount of scale the chart has with the data.
 
-List the features needed to make your chart work and make sure they match our
-[rubric][].  For example, pie charts or donut charts often lack features needed
-to get good grades in the **application of subject matter** category.  You must
-compensate with other useful features to get a good grade in this case.
+After that I used the original g.append to edit the x and y-axis and the lines in the chart.
 
-Pick the most enticing data and copy it to your fork.
+##Data
 
-###### Process
+I used the data from the KMNI.
 
-Describe the purpose and background of your visualisation in your fork’s readme.
-Portray your data and list the d3 features.
+Download assessment-1/temperature.csv.
 
-Start writing code.  Feel free to use example code found on the web but make
-sure to include correct citations.  Use inline code comments to describe
-anything of interest.  Don’t forget to document your process.
+Format
 
-###### Review
+Comma-separated values (CSV) with 1400 rows and two columns:
 
-Finish up your readme and review your project.  Audit the code and docs.
-Evaluate whether the project matches our [rubric][] and make changes where
-needed.
+date — Date in YYYYMMDD
+temp — Homogenised monthly temperature in degrees celsius
 
-Include anything you’re particularly proud of and mention anything that was
-exceptionally hard to accomplish in your readme to make sure lecturers don’t
-miss it!  🌟
+Example:
 
-[banner]: https://cdn.rawgit.com/cmda-fe3/logo/3b150735/banner-assessment-1.svg
+| date          | temp          |
+| ------------- | ------------- |
+| 19010131      | -0.424        | 
+| 19010228      | -0.761        |
+| 19010331      | 3.369         |
+| 19010430      | 8.782         |
+| 19010531      | 12.181        |
 
-[a1]: https://github.com/cmda-fe3/course-17-18/tree/master/assessment-1#description
+##Features
 
-[data]: https://github.com/cmda-fe3/course-17-18/tree/master/assessment-1#data
+* [D3 scales] https://www.dashingd3js.com/d3js-scales
+* [D3] https://d3js.org/
+* [Original line chart] https://bl.ocks.org/mbostock/3883245
+* [KNMI] https://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt
+* [Data KNMI] https://github.com/cmda-fe3/course-17-18/blob/master/assessment-1/temperature.csv
 
-[rubric]: https://github.com/cmda-fe3/course-17-18/tree/master/assessment-1#rubric
+##License
 
-[fe3]: https://github.com/cmda-fe3
-
-[cmda]: https://github.com/cmda
-
-[pages]: https://pages.github.com
+GPL 3.0 © [2017] [Dylan van Zanten]
