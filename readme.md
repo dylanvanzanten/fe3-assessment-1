@@ -9,7 +9,7 @@ The data is from the [KMNI] https://www.knmi.nl/kennis-en-datacentrum/achtergron
 
 [final version]https://dylanvanzanten.github.io/fe3-assessment-1/
 
-##Background
+## Background
 
 First of I've copied the JS code from the original chart. When I copied the code I then went to analyse the code. After that I've downloaded the data and placed al the needing files inside my directory. I cleaned the original code up some bit. Some places where a bit messy, not indented etc. I've done the ```javavascript
 g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -32,7 +32,7 @@ After these functions I used the x and y.domain. The domain determines the amoun
 
 After that I used the original g.append to edit the x and y-axis and the lines in the chart.
 
-##Data
+## Data
 
 I used the data from the KMNI.
 
@@ -55,7 +55,7 @@ Example:
 | 19010430      | 8.782         |
 | 19010531      | 12.181        |
 
-##Features
+## Features
 
 * [D3 scales] https://www.dashingd3js.com/d3js-scales
 * [D3] https://d3js.org/
@@ -63,6 +63,6 @@ Example:
 * [KNMI] https://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt
 * [Data KNMI] https://github.com/cmda-fe3/course-17-18/blob/master/assessment-1/temperature.csv
 
-##License
+## License
 
 GPL 3.0 © [2017] [Dylan van Zanten]
