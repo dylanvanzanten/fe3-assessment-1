@@ -2,11 +2,11 @@
 
 #Assessment 1 
 
-This is a D3 chart of visualsing the monthly temperature time series. This assignment is made with [D3] https://d3js.org/. I've chosen the [Line chart] https://bl.ocks.org/mbostock/3883245 to visualise my data. The data is from the [KMNI] https://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt.
+This is a D3 chart of visualsing the monthly temperature time series. This assignment is made with [D3] https://d3js.org/. I've chosen the [Line chart](https://bl.ocks.org/mbostock/3883245) to visualise my data. The data is from the [KMNI](https://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt).
 
+![Final version](preview.png)
 
-
-[final version] https://dylanvanzanten.github.io/fe3-assessment-1/
+[Link](https://dylanvanzanten.github.io/fe3-assessment-1/)
 
 ## Background
 
@@ -60,11 +60,11 @@ Example:
 
 ## Features
 
-* [D3 scales] https://www.dashingd3js.com/d3js-scales
-* [D3] https://d3js.org/
-* [Original line chart] https://bl.ocks.org/mbostock/3883245
-* [KNMI] https://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt
-* [Data KNMI] https://github.com/cmda-fe3/course-17-18/blob/master/assessment-1/temperature.csv
+* [D3 scales](https://www.dashingd3js.com/d3js-scales)
+* [D3](https://d3js.org/)
+* [Original line chart](https://bl.ocks.org/mbostock/3883245)
+* [KNMI](https://www.knmi.nl/kennis-en-datacentrum/achtergrond/gehomogeniseerde-reeks-maandtemperaturen-de-bilt)
+* [Data KNMI](https://github.com/cmda-fe3/course-17-18/blob/master/assessment-1/temperature.csv)
 
 ## License
 
