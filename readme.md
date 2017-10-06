@@ -4,11 +4,11 @@ This is a D3 chart of visualsing the monthly temperature time series. This assig
 
 ![Final version](preview.png)
 
-[Link](https://dylanvanzanten.github.io/fe3-assessment-1/)
+[Link to assessment](https://dylanvanzanten.github.io/fe3-assessment-1/)
 
 ## Background
 
-First of I've copied the JS code from the original chart. When I copied the code I then went to analyse the code. After that I've downloaded the data and placed al the needing files inside my directory. I cleaned the original code up some bit. Some places where a bit messy, not indented etc.
+First of I've copied the JS code from the original chart. When I copied the code I then went to analyse the code. After that I've downloaded the data and placed al the needing files inside my directory. I cleaned the original code up some bit. Some places where a bit messy, not indented etc. Here below I've picked out a example I've changed.
 
 I've done this 
 ```
